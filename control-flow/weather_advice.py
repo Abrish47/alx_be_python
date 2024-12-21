@@ -1,4 +1,4 @@
-Weather = str(input("what is the weather:"))
+Weather = str(input("what is the weather:")) # Ask the user to input the current weather from a predefined set of conditions
 
 if Weather == "sunny":
   print ("Wear a t-shirt and sunglasses.")
