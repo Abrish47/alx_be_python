@@ -17,4 +17,4 @@ if time_bound == "yes":
 elif time_bound != "no":
     reminder = "Invalid input for time-bound. Please use yes or no."
 
-print(reminder)
+print(f"Reminder: {reminder}")
