@@ -1,7 +1,9 @@
-range (1,11)
+# multiplication_table.py
 
-y = int(input ("Enter a number to see its multiplication table:"))
+# Prompt the user to input a number
+number = int(input("Enter a number to see its multiplication table: "))
 
-for x in range (1,11):
-  result = y * x
-  print (f"{y} * {x} = {result}")
+# Loop through numbers 1 to 10 and calculate the multiples
+for i in range(1, 11):
+    # Use the required format for the print statement
+    print(f"{number} * {i} = {number * i}")
